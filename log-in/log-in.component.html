@@ -1,0 +1,29 @@
+
+<div class="alert">
+ 
+    <div class="alert alert-danger" role="alert"  *ngIf="serverCreated" >
+      Username or password is incorrect
+    </div>
+  </div>
+  <div class="sign">
+      <div class="title">
+        <p> Angular Signin </p>
+      </div>
+      <div class="others">
+        <div class="one">
+          <p> USERNAME </p> <br>
+          <input type="text" class="form-control" placeholder="Username" [(ngModel)]="activate"  id="fname" (focusout)="test()"/> <br>
+        </div>
+        <label for="" *ngIf="other">Username is required</label> <br>
+        <div class="two">
+          <p > PASSWORD </p> <br>
+          <input type="password" class="form-control" placeholder="Password" [(ngModel)]="activate2" /> <br>
+        
+        </div>
+        
+        <button type="button" class="btn btn-primary" [disabled]="activate==='' && activate2===''" (click)="mine()" >
+           Signin
+        </button>
+      </div>
+  </div>
+  

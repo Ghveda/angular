@@ -1,0 +1,57 @@
+.sign{
+    
+    border: 1px rgb(187, 187, 187) solid;
+    transform: translate(350px,100px);
+    width: 700px;
+    height: 400px;
+}
+
+.alert{
+    transform: translate(165px,65px);
+    width: 700px;
+    
+}
+.title{
+    border: 1px rgb(225, 228, 225) solid;
+    font-size: 30px;
+    background-color:  rgb(240, 240, 240);
+    height: 50px;
+    line-height: 1.5em;
+}
+.title p{
+    transform: translate(20px,0px);
+}
+.others p{
+    font-size: 15px;
+    transform: translate(40px,5px);
+}
+
+label{
+    transform: translate(0em,-1.5em);
+    margin-left: 1.5em;
+    color: red;
+    font-size: 15px;
+}
+input{
+    width: 95%;
+    transform: translate(2.5%,0%);
+    
+}
+.one p{
+    transform: translate(20px,30px);
+}
+.two p{
+    transform: translate(20px,-20px);
+}
+.two input{
+    transform: translate(2.5%,-50px);
+}
+button{
+    transform: translate(20px,-50px);
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+}
+

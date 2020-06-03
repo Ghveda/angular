@@ -1,0 +1,57 @@
+.all{
+    color: white;
+    background: url(./images/received_655190985068488.jpeg);
+    width: 500px;
+    height: 570px;
+    transform: translate(400px,30px);
+    box-shadow: rgb(195, 195, 195) 20px 20px 10px ;
+}
+.circle{
+    background-color: white;
+   width: 200px;
+   height: 200px;
+    transform: translate(130px,30px);
+    border-radius: 50%;
+}
+.inside{
+    border-radius: 50%;
+    background-color: rgb(63, 175, 240);
+    width: 195px;
+    height: 195px;
+    transform: translate(2px,2px);
+}
+.inside p{
+    font-size: 70px;
+    transform: translate(80px,40px);
+}
+.bottom{
+    background-color: rgb(68, 68, 68);
+    height: 50px;
+    width: 500px;
+    transform: translate(-15px,220px);
+    text-align: center;
+}
+
+.idCircle{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translate(-30px,-20px);
+}
+.idCircle p{
+    font-size: 25px;
+    transform: translate(18px,3px);
+}
+.name,
+.email{
+    transform: translate(200px,40px);
+}
+.name{
+    color: white;
+    font-size: 20px;
+}
+.email{
+    color: white;
+    font-size: 16px;
+}
